@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS tindog_db;
+
+CREATE DATABASE tindog_db;
