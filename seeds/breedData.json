@@ -6,7 +6,7 @@
     "petfinder_code": "affenpinscher",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/affenpinscher/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/affenpinscher/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "African Wild Dog",
@@ -15,7 +15,7 @@
     "petfinder_code": "",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/african/",
     "petfinder_url": "",
-    "whitelist": false,
+    "whitelist": false
   },
   {
     "name": "Airedale Terrier",
@@ -24,7 +24,7 @@
     "petfinder_code": "airedale-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/airedale/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/airedale-terrier/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Akita",
@@ -33,7 +33,7 @@
     "petfinder_code": "akita",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/akita/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/akita/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Appenzeller Mountain Dog",
@@ -42,7 +42,7 @@
     "petfinder_code": "",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/appenzeller/",
     "petfinder_url": "",
-    "whitelist": false,
+    "whitelist": false
   },
   {
     "name": "Australian Shepherd",
@@ -51,7 +51,7 @@
     "petfinder_code": "australian-shepherd",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/australian/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-shepherd/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Beagle",
@@ -60,7 +60,7 @@
     "petfinder_code": "beagle",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/beagle/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/beagle/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Boxer",
@@ -69,7 +69,7 @@
     "petfinder_code": "boxer",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/boxer/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Chihuahua",
@@ -78,7 +78,7 @@
     "petfinder_code": "chihuahua",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/chihuahua/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/chihuahua/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Labrador Retriever",
@@ -87,7 +87,7 @@
     "petfinder_code": "labrador-retriever",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/labrador/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/labrador-retriever/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Siberian Husky",
@@ -96,6 +96,6 @@
     "petfinder_code": "siberian-husky",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/husky/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/siberian-husky/",
-    "whitelist": true,
-  },
+    "whitelist": true
+  }
 ]
