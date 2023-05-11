@@ -18,7 +18,6 @@ Reference.init(
     },
     petfinder_code: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
     dog_ceo_base_url: {
       type: DataTypes.STRING,
@@ -26,6 +25,9 @@ Reference.init(
     },
     petfinder_url: {
       type: DataTypes.STRING,
+    },
+    whitelist: {
+      type: DataTypes.BOOLEAN,
       allowNull: false,
     }
   },
