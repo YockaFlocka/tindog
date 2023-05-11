@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Beagle",
+    "description": "",
+    "dog_ceo_code": "beagle",
+    "petfinder_code": "beagle",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/beagle/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/beagle/"
+  },
+  {
+    "name": "Boxer",
+    "description": "",
+    "dog_ceo_code": "boxer",
+    "petfinder_code": "boxer",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/boxer/"
+  },
+  {
+    "name": "Chihuahua",
+    "description": "",
+    "dog_ceo_code": "chihuahua",
+    "petfinder_code": "chihuahua",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/chihuahua/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/chihuahua/"
+  },
+  {
+    "name": "Labrador Retriever",
+    "description": "",
+    "dog_ceo_code": "labrador",
+    "petfinder_code": "labrador-retriever",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/labrador/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/labrador-retriever/"
+  },
+  {
+    "name": "Siberian Husky",
+    "description": "",
+    "dog_ceo_code": "husky",
+    "petfinder_code": "siberian-husky",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/husky/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/siberian-husky/"
+  },
+]
