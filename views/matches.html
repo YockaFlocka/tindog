@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches</title>
+</head>
+<body>
+    <header>  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+            <a class="navbar-brand" href="">tindog</a>
+             
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             
+             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                 
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                         <a class="nav-link" href="">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="">Favorites</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="">Sign Up</a>
+                     </li>
+                 </ul>
+                 
+             </div>
+         </nav>
+       </header>  
+    
+    <div class ="matchesCard">
+        <a class ="dogPhoto">
+            
+        </a>
+
+            
+
+        <button class ="declineBtn">Decline</button>
+        <button class ="acceptBtn">Accept</button>
+    </div> 
+    <script>
+        function dogImage(){
+            fetch("https://dog.ceo/api/breeds/image/random")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+                let imgEl = document.querySelector(".dogPhoto")
+                imgEl.innerHTML = "<img src='" + data.message + "'>";
+            })
+            .catch(err => console.error(error));
+        }
+        dogImage();
+
+    </script>
+</body>
+</html>
+
+<!--"https://dog.ceo/api/breeds/image/random"-->
