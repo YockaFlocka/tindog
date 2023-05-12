@@ -54,6 +54,7 @@
     "whitelist": true,
   },
   {
+
     "name": "Basenji",
     "description": "",
     "dog_ceo_code": "basenji",
@@ -62,7 +63,8 @@
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/basenji/",
     "whitelist": true,
   },
-  {
+
+
     "name": "Beagle",
     "description": "",
     "dog_ceo_code": "beagle",
@@ -72,6 +74,7 @@
     "whitelist": true,
   },
   {
+
     "name": "Bluetick Coonhound",
     "description": "",
     "dog_ceo_code": "bluetick-coonhound",
@@ -99,15 +102,22 @@
     "whitelist": true,
   },
   {
+
+
     "name": "Boxer",
     "description": "",
     "dog_ceo_code": "boxer",
     "petfinder_code": "boxer",
+
     "dog_ceo_base_url": "https://dog.ceo/api/breed/boxer/",
+
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/",
+
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/boxer/",
     "whitelist": true,
   },
   {
+
     "name": "Brabancon",
     "description": "",
     "dog_ceo_code": "brabancon",
@@ -135,6 +145,7 @@
   "whitelist": true,
 },
   {
+
     "name": "Chihuahua",
     "description": "",
     "dog_ceo_code": "chihuahua",
