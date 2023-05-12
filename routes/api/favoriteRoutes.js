@@ -8,29 +8,8 @@ router.get("/", (req, res) => {
     .catch( err => res.json({ msg: err.message }))
 })
 
-
-router.get("/:id", (req, res) => {
-  Favorite.findByPk(req.params.id)
-    .then( resp => res.json({ status: "success", payload: resp }))
-    .catch( err => res.json({ msg: err.message }))
-})
-
-
 router.post("/", (req, res) => {
   Favorite.create(req.body)
-    .then( resp => res.json({ status: "success", payload: resp }))
-    .catch( err => res.json({ msg: err.message }))
-})
-
-router.put("/:id", (req, res) => {
-  Favorite.update(
-    req.body,
-    {
-      where: {
-        id: req.params.id
-      }
-    }
-  )
     .then( resp => res.json({ status: "success", payload: resp }))
     .catch( err => res.json({ msg: err.message }))
 })
