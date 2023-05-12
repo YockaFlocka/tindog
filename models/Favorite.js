@@ -22,19 +22,20 @@ Reference ID
 Favorite.init(
   {
     name: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false,
     },
-    User_ID: {
-      type: DataTypes.STRING
+    user_id: {
+      type: DataTypes.INTEGER,
     },
-    Breed_ID: {
-      type: DataTypes.STRING
+    breed_id: {
+      type: DataTypes.INTEGER,
     },
     dog_ceo_base_url: {
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
-    Reference_ID: {
-      type: DataTypes.STRING
+    reference_id: {
+      type: DataTypes.INTEGER,
     }
   },
   {
