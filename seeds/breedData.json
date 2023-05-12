@@ -54,6 +54,17 @@
     "whitelist": true
   },
   {
+
+    "name": "Basenji",
+    "description": "",
+    "dog_ceo_code": "basenji",
+    "petfinder_code": "basenji",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/basenji/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/basenji/",
+    "whitelist": true,
+  },
+
+
     "name": "Beagle",
     "description": "",
     "dog_ceo_code": "beagle",
@@ -63,15 +74,78 @@
     "whitelist": true
   },
   {
+
+    "name": "Bluetick Coonhound",
+    "description": "",
+    "dog_ceo_code": "bluetick-coonhound",
+    "petfinder_code": "bluetick-coonhound",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/bluetick/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bluetick-coonhound/",
+    "whitelist": true,
+  },
+  {
+    "name": "Borzoi",
+    "description": "",
+    "dog_ceo_code": "borzoi",
+    "petfinder_code": "borzoi",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/borzoi/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/borzoi/",
+    "whitelist": true,
+  },
+  {
+    "name": "Bouvier-Des-Flandres",
+    "description": "",
+    "dog_ceo_code": "bouvier-des-flandres",
+    "petfinder_code": "bouvier-des-flandres",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/bouvier/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bouvier-des-flandres/",
+    "whitelist": true,
+  },
+  {
+
+
     "name": "Boxer",
     "description": "",
     "dog_ceo_code": "boxer",
     "petfinder_code": "boxer",
+
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/boxer/",
+
     "dog_ceo_base_url": "https://dog.ceo/api/breed/",
+
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/boxer/",
     "whitelist": true
   },
   {
+
+    "name": "Brabancon",
+    "description": "",
+    "dog_ceo_code": "brabancon",
+    "petfinder_code": "brabancon",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/brabancon/",
+    "petfinder_url": "",
+    "whitelist": false,
+  },
+  {
+  "name": "Briard",
+  "description": "",
+  "dog_ceo_code": "briard",
+  "petfinder_code": "briard",
+  "dog_ceo_base_url": "https://dog.ceo/api/breed/briard/",
+  "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/briard/",
+  "whitelist": true,
+},
+{
+  "name": "Norwegian Buhund",
+  "description": "",
+  "dog_ceo_code": "norwegian-buhund",
+  "petfinder_code": "norwegian-buhund",
+  "dog_ceo_base_url": "https://dog.ceo/api/breed/buhund/",
+  "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norwegian-buhund/",
+  "whitelist": true,
+},
+  {
+
     "name": "Chihuahua",
     "description": "",
     "dog_ceo_code": "chihuahua",
