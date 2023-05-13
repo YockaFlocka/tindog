@@ -61,10 +61,9 @@
     "petfinder_code": "basenji",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/basenji/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/basenji/",
-    "whitelist": true,
+    "whitelist": true
   },
-
-
+  {
     "name": "Beagle",
     "description": "",
     "dog_ceo_code": "beagle",
@@ -74,14 +73,13 @@
     "whitelist": true
   },
   {
-
     "name": "Bluetick Coonhound",
     "description": "",
     "dog_ceo_code": "bluetick-coonhound",
     "petfinder_code": "bluetick-coonhound",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/bluetick/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bluetick-coonhound/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Borzoi",
@@ -90,7 +88,7 @@
     "petfinder_code": "borzoi",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/borzoi/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/borzoi/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Bouvier-Des-Flandres",
@@ -99,11 +97,9 @@
     "petfinder_code": "bouvier-des-flandres",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/bouvier/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bouvier-des-flandres/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
-
-
     "name": "Boxer",
     "description": "",
     "dog_ceo_code": "boxer",
@@ -124,7 +120,7 @@
     "petfinder_code": "brabancon",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/brabancon/",
     "petfinder_url": "",
-    "whitelist": false,
+    "whitelist": false
   },
   {
   "name": "Briard",
@@ -133,7 +129,7 @@
   "petfinder_code": "briard",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/briard/",
   "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/briard/",
-  "whitelist": true,
+  "whitelist": true
 },
 {
   "name": "Norwegian Buhund",
@@ -142,7 +138,7 @@
   "petfinder_code": "norwegian-buhund",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/buhund/",
   "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norwegian-buhund/",
-  "whitelist": true,
+  "whitelist": true
 },
 {
   "name": "Boston Bulldog",
@@ -151,7 +147,7 @@
   "petfinder_code": "boston-bulldog",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/bulldog/boston/",
   "petfinder_url": "",
-  "whitelist": false,
+  "whitelist": false
 },
 {
   "name": "English Bulldog",
@@ -160,7 +156,7 @@
   "petfinder_code": "english-bulldog",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/bulldog/english/",
   "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bulldog/",
-  "whitelist": true,
+  "whitelist": true
 },
 {
   "name": "French Bulldog",
@@ -169,7 +165,7 @@
   "petfinder_code": "french-bulldog",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/bulldog/french/",
   "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/french-bulldog/",
-  "whitelist": true,
+  "whitelist": true
 },
 {
   "name": "Staffordshire Bullterrier",
@@ -178,7 +174,7 @@
   "petfinder_code": "staffordshire-bullterrier",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/bullterrier/staffordshire/",
   "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/staffordshire-bull-terrier/",
-  "whitelist": true,
+  "whitelist": true
 },
 {
   "name": "Australian Cattledog",
@@ -187,7 +183,7 @@
   "petfinder_code": "australian-cattledog",
   "dog_ceo_base_url": "https://dog.ceo/api/breed/cattledog/australian/",
   "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-cattle-dogs/",
-  "whitelist": true,
+  "whitelist": true
 },
   {
 
@@ -206,7 +202,7 @@
     "petfinder_code": "chow-chow",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/chow/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/chow/chow/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Clumber",
@@ -215,7 +211,7 @@
     "petfinder_code": "clumber-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/clumber/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/clumber-spaniel/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Cockapoo",
@@ -224,7 +220,7 @@
     "petfinder_code": "cockapoo",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/cockapoo/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/cockapoo/",
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Border Collie",
@@ -233,7 +229,7 @@
     "petfinder_code": "border-collie",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/collie/border/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/border-collie/", 
-    "whitelist": true,
+    "whitelist": true
   },
   {
     "name": "Black and Tan Coonhound",
@@ -242,10 +238,10 @@
     "petfinder_code": "coonhound",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/coonhound/",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/black-and-tan-coonhound/", 
-    "whitelist": true,
+    "whitelist": true
   },  
 
-  
+
   {
     "name": "Labrador Retriever",
     "description": "",
