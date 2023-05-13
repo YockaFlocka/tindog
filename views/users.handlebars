@@ -1,0 +1,36 @@
+<aside>
+  <p>Hello User</p>
+  <!--placeholder, need to add styling and functionality--> 
+  <button>Account Settings</button>
+  </aside>
+  <div class="favorite">
+    <div class="container">
+      <h1>Your Favorites On Display</h1>
+    </div>
+    <div class="favorite-showcase"></div>
+  </div>
+  <div class = "favorite"></div>
+<!--need to add favorites data--> 
+  <script>
+    function getFavorites(){ 
+      fetch("")
+      .then(response => response.json())
+      .then(data => {
+        let favoriteDogs=document.querySelector("")
+        favoriteDogs.innerHTML=JSON.stringify(data, null)
+        let favoriteShowcase=document.querySelector("favorite-showcase")
+        favoriteShowcase.innerHTML=""
+        data.message.array.forEach(item => {
+          let dogPhoto = document.createElement("img")
+          img.src = item
+          dogPhoto.appendChild(img)
+        });
+      })
+      .catch(err => console.error(error));
+    }
+    dogImage();
+  </script>
+</body>
+</html>
+
+<!--fetch("https://dog.ceo/api/breeds/image/random")-->
