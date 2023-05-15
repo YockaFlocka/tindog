@@ -31,7 +31,7 @@ Favorite.init(
     breed_id: {
       type: DataTypes.INTEGER,
     },
-    dog_ceo_base_url: {
+    photo_url: {
       type: DataTypes.STRING,
     },
     reference_id: {
