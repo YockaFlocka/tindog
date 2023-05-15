@@ -8,6 +8,10 @@ router.get('/matches', (req, res) => {
   res.render('matches')
 })
 
+router.get('/favorites', (req, res) => {
+  res.render('favorites')
+})
+
 router.get('/users', (req, res) => {
   res.render('users')
 })
