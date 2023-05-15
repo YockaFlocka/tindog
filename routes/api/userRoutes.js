@@ -2,11 +2,11 @@ const router = require("express").Router();
 const User = require("../../models/User");
 
 
-// router.get("/", (req, res) => {
-//   User.findAll()
-//     .then( resp => res.status(200).json({ status: "success", payload: resp }))
-//     .catch( err => res.status(200).json({ msg: err.message }))
-// })
+router.get("/", (req, res) => {
+  User.findAll()
+    .then( resp => res.status(200).json({ status: "success", payload: resp }))
+    .catch( err => res.status(200).json({ msg: err.message }))
+})
 
 
 // router.get("/:id", (req, res) => {
@@ -15,17 +15,19 @@ const User = require("../../models/User");
 //     .catch( err => res.json({ msg: err.message }))
 // })
 
+const bigLog = text => console.log(`\n==${text}\n`)
+
+
 
 router.post('/', async (req, res) => {
+  bigLog("signup route hit and running")
+  
   try {
-    const dbUserData = await User.create({
-      fname: req.body.fname,
-      lname: req.body.lname,
-      email: req.body.email,
-      password: req.body.password,
-    });
-
+    const dbUserData = await User.create(req.body);
+      bigLog("req.body: ", req.body)
+      
     req.session.save(() => {
+      req.session.user_id = dbUserData.id;
       req.session.loggedIn = true;
 
       res.status(200).json(dbUserData);
@@ -36,18 +38,24 @@ router.post('/', async (req, res) => {
   }
 });
 
+
 router.post('/login', async (req, res) => {
+  bigLog("Login route hit and running")
+  bigLog("req.body: ", req.body)
+
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
-
+    bigLog("userData: " +  userData)
+    
     if (!userData) {
       res
-        .status(400)
-        .json({ message: 'Incorrect email or password, please try again' });
+      .status(400)
+      .json({ message: 'Incorrect email or password, please try again' });
       return;
     }
-
+    
     const validPassword = await userData.validatePassword(req.body.password);
+    bigLog("validPassword: " +  validPassword)
 
     if (!validPassword) {
       res
