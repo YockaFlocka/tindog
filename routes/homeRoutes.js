@@ -5,11 +5,11 @@ router.get('/', (req, res) => {
 })
 
 router.get('/matches', (req, res) => {
-  res.render('matches')
+  res.render('matches', {logged_in: req.session.logged_in})
 })
 
 router.get('/favorites', (req, res) => {
-  res.render('favorites')
+  res.render('favorites', {logged_in: req.session.logged_in})
 })
 
 router.get('/users', (req, res) => {
