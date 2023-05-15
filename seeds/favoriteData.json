@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Favorite #1",
+    "user_id": 1,
+    "breed_id": null,
+    "photo_url": "https://images.dog.ceo/breeds/akita/Akita_hiking_in_Shpella_e_Pellumbasit.jpg",
+    "reference_name": "Akita"
+  },
+  {
+    "name": "Favorite #2",
+    "user_id": 2,
+    "breed_id": null,
+    "photo_url": "https://images.dog.ceo/breeds/borzoi/n02090622_3156.jpg",
+    "reference_name": "Borzoi"
+  }
+]
