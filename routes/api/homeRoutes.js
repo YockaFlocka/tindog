@@ -1,26 +1,23 @@
 const router = require("express").Router();
-const https = require("https");
+// const https = require("https");
 
-const url = 'https://dog.ceo/api/breeds/image/random';
+const url = 'https://dog.ceo/api/breeds/image/random/10';
 
 router.get("/", (req, res) => {
-  const request = https.request(url, (response) => {
-    let data = '';
-    response.on('data', (chunk) => {
-        data = data + chunk.toString();
-    });
-  
-    response.on('end', () => {
-        const body = JSON.parse(data);
-        res.json(body);
-    });
-  })
-    
-  request.on('error', (error) => {
-      res.json({msg: error});
-  });
-    
-  request.end()
+  const getBreed = dog =>
+    dog.message.split("breeds/")[1].split("/")[0]
+
+  // let sent = false
+  // while (!sent) {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        // if (getBreed(data) === "kuvasz") {
+          res.send(data)
+          // sent = true
+        // }
+      })
+  // }
 })
 
 module.exports = router;
