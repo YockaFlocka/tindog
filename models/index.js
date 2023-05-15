@@ -1,6 +1,6 @@
-import User from "./User"
-import Favorite from "./Favorite"
-import Reference from "./Reference"
+const User = require("./User")
+const Favorite = require("./Favorite")
+const Reference = require("./Reference")
 
 User.hasMany(Favorite, {
   foreignKey: 'user_id',
