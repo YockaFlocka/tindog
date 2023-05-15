@@ -1,0 +1,22 @@
+<body>
+  <div class ="matchesCard">
+    <a class ="dogPhoto"></a> 
+    <button class ="declineBtn">Decline</button>
+    <button class ="acceptBtn">Accept</button>
+  </div> 
+
+  <script>
+    function dogImage(){
+        fetch("https://dog.ceo/api/breeds/image/random")
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            let imgEl = document.querySelector(".dogPhoto")
+            imgEl.innerHTML = "<img src='" + data.message + "'>";
+        })
+        .catch(err => console.error(error));
+    }
+    dogImage();
+  </script>
+</body>
+</html>
