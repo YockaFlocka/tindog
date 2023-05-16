@@ -17,7 +17,7 @@
       console.log(data);
       let imgEl = document.querySelector(".dogPhoto");
       imgEl.src = data.message.photo_url;
-      imgEl.dataset.referenceId = data.message.reference_id;
+      imgEl.dataset.referenceId = data.message.ref_id;
       let titleEl = document.querySelector(".card-title");
       titleEl.textContent = data.message.breed_name;
     })
