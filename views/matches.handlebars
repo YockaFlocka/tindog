@@ -17,9 +17,16 @@
       console.log(data);
       let imgEl = document.querySelector(".dogPhoto");
       imgEl.src = data.message.photo_url;
-      imgEl.dataset.referenceId = data.message.ref_id;
+      imgEl.dataset.referenceId = data.message.whitelist ? data.message.ref_id : -1;
       let titleEl = document.querySelector(".card-title");
       titleEl.textContent = data.message.breed_name;
+
+      let acceptBtn = document.querySelector("#acceptBtn");
+      if (data.message.ref_id > 0){
+        acceptBtn.classList.remove("disabled");
+      } else {
+        acceptBtn.classList.add("disabled");
+      }
     })
     .catch(error => console.error(error));
 }

@@ -9,9 +9,13 @@ router.get("/", (req, res) => {
 })
 
 router.post("/", (req, res) => {
-  Favorite.create(req.body)
-    .then( resp => res.json({ status: "success", payload: resp }))
-    .catch( err => res.json({ msg: err.message }))
+  if (req.body.reference_id > 0){
+    Favorite.create(req.body)
+      .then( resp => res.json({ status: "success", payload: resp }))
+      .catch( err => res.json({ msg: err.message }))
+  } else {
+    res.json({msg: "ERROR: Invalid reference ID."})
+  }
 })
 
 router.delete("/:id", (req, res) => {
