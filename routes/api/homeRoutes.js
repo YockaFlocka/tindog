@@ -16,6 +16,7 @@ router.get("/", (req, res) => {
             message: {
               photo_url: data.message,
               ref_code: breed,
+              breed_name: result ? result.name : "",
               ref_id: result ? result.id : -1,
               adoptable: result ? result.whitelist : false
             }

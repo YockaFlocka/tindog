@@ -10,7 +10,7 @@ router.get('/matches', (req, res) => {
     return;
   }
 
-  res.render('matches', {logged_in: req.session.logged_in})
+  res.render('matches', {logged_in: req.session.logged_in, user_id: req.session.user_id})
 })
 
 // router.get('/favorites', (req, res) => {
