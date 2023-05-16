@@ -14,11 +14,16 @@ const seedDatabase = async () => {
 
   await Reference.bulkCreate(breedData);
   
-  await Favorite.create({
-    user_id: 5,
-    photo_url: "fsfsfsfsg",
-    reference_id: 5
-  });
+  await Favorite.create(
+    {
+      user_id: 1,
+      photo_url: "fsfsfsfsg",
+      reference_id: 1
+    },
+    { 
+      fields: [ "user_id", "photo_url", "reference_id"] 
+    }
+  );
 
   // for (const favorite of favoriteData) {
   //   const ref = await Reference.findOne({ where: { name: favorite.reference_name } });
