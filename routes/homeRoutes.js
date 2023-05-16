@@ -5,6 +5,11 @@ router.get('/', (req, res) => {
 })
 
 router.get('/matches', (req, res) => {
+  if (!req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
+
   res.render('matches', {logged_in: req.session.logged_in})
 })
 
@@ -13,16 +18,19 @@ router.get('/matches', (req, res) => {
 // })
 
 router.get('/users', (req, res) => {
+  if (!req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
+
   res.render('users', {logged_in: req.session.logged_in})
 })
 
 router.get('/login', (req, res) => {
-  // If the user is already logged in, redirect the request to another route
-  // if (req.session.logged_in) {
-  //   res.redirect('/profile');
-  //   return;
-  // }
-
+  if (req.session.logged_in) {
+    res.redirect('/');
+    return;
+  }
   res.render('login');
 });
 
