@@ -15,20 +15,22 @@ router.get("/", (req, res) => {
 //     .catch( err => res.json({ msg: err.message }))
 // })
 
-const bigLog = text => console.log(`\n==${text}\n`)
+const bigLog = (...text) => console.log(`\n==${text.join(" ")}\n`)
 
 
 
 router.post('/', async (req, res) => {
   bigLog("signup route hit and running")
+
+  console.log(req)
   
   try {
     const dbUserData = await User.create(req.body);
-      bigLog("req.body: ", req.body)
+    console.log("We are getting dbUserData: ", dbUserData)
       
     req.session.save(() => {
       req.session.user_id = dbUserData.id;
-      req.session.loggedIn = true;
+      req.session.logged_in = true;
 
       res.status(200).json(dbUserData);
     });
@@ -40,8 +42,8 @@ router.post('/', async (req, res) => {
 
 
 router.post('/login', async (req, res) => {
-  bigLog("Login route hit and running")
-  bigLog("req.body: ", req.body)
+  console.log("Login route hit and running")
+  console.log("req.body: ", req.body)
 
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
