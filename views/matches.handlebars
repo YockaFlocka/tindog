@@ -1,22 +1,61 @@
-<body>
-  <div class ="matchesCard">
-    <a class ="dogPhoto"></a> 
-    <button class ="declineBtn">Decline</button>
-    <button class ="acceptBtn">Accept</button>
-  </div> 
+<div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <div class="card text-center" style="width: 25rem;">
+    <img class="dogPhoto">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a class="btn btn-primary" id="declineBtn">Decline</a>
+      <a class="btn btn-secondary" id="acceptBtn">Accept</a>
+    </div>
+  </div>
+</div>
+<script>
+  function dogImage() {
+  fetch("https://dog.ceo/api/breeds/image/random")
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      let imgEl = document.querySelector(".dogPhoto");
+      imgEl.src = data.message;
+    })
+    .catch(error => console.error(error));
+}
 
-  <script>
-    function dogImage(){
-        fetch("https://dog.ceo/api/breeds/image/random")
-        .then(response => response.json())
-        .then(data => {
-            console.log(data)
-            let imgEl = document.querySelector(".dogPhoto")
-            imgEl.innerHTML = "<img src='" + data.message + "'>";
-        })
-        .catch(err => console.error(error));
-    }
-    dogImage();
-  </script>
-</body>
-</html>
+dogImage();
+
+// Add event listeners for keypress on the decline and accept buttons
+const declineBtn = document.getElementById("declineBtn");
+const acceptBtn = document.getElementById("acceptBtn");
+
+document.addEventListener("keydown", function(event) {
+  if (event.code === "ArrowLeft") {
+    console.log('you clicked decline!')
+    declineBtn.click();
+  } else if (event.code === "ArrowRight") {
+    console.log('you clicked accept!')
+    acceptBtn.click();
+  }
+});
+
+declineBtn.addEventListener("click", function() {
+  console.log('you clicked decline!')
+  dogImage();
+});
+
+acceptBtn.addEventListener("click", function() {
+  console.log('you clicked accept!')
+  // Make a POST request to the server with the image URL
+  fetch("http://example.com/favoritesSeed", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ image: document.querySelector(".dogPhoto").src })
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error));
+
+  dogImage();
+});
+</script>
