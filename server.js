@@ -27,6 +27,13 @@ const sess = {
 
 const hbs = exphbs.create({ helpers });
 
+app.use(express.static('public'));
+
+app.get('./public/js/matches.js', (req, res) => {
+  res.type('application/javascript');
+  res.sendFile(path.join(__dirname, 'public', 'js', 'matches.js'));
+})
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars')
 
