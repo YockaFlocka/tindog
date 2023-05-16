@@ -12,6 +12,13 @@ Favorite.belongsTo(User, {
 })
 
 // Need links to tie in reference table, done in router?
+Reference.hasMany(Favorite, {
+  foreignKey: 'reference_id',
+  onDelete: 'CASCADE'
+})
 
+Favorite.belongsTo(Reference, {
+  foreignKey: 'reference_id'
+})
 
 module.exports = { Reference, Favorite, User }
