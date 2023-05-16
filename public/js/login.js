@@ -32,9 +32,12 @@ const signupFormHandler = async (event) => {
   const password = document.querySelector("#password-signup").value.trim();
 
   if (fname && lname && email && password) {
+    const body = { fname, lname, email, password }
+    console.log("==== We are sending body:", body)
+
     const response = await fetch("/api/user", {
       method: "POST",
-      body: JSON.stringify({ fname, lname, email, password }),
+      body: JSON.stringify(body),
       headers: { "Content-Type": "application/json" },
     });
 
