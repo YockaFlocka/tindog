@@ -9,24 +9,29 @@ const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
   await User.bulkCreate(userData, {
-    individualHooks: true,
-    returning: true,
+    individualHooks: true
   });
 
   await Reference.bulkCreate(breedData);
+  
+  await Favorite.create({
+    user_id: 5,
+    photo_url: "fsfsfsfsg",
+    reference_id: 5
+  });
 
-  for (const favorite of favoriteData) {
-    const ref = await Reference.findOne({ where: { name: favorite.reference_name } });
-    if (ref) {
-      const {reference_name, ...favorite_sub} = favorite
-      await Favorite.create({
-        ...favorite_sub,
-        reference_id: ref.id
-      })
-    } else {
-      console.log(`WARNING: '${favorite.reference_name}' not found.  Skipping...`)
-    }
-  }
+  // for (const favorite of favoriteData) {
+  //   const ref = await Reference.findOne({ where: { name: favorite.reference_name } });
+  //   if (ref) {
+  //     const {reference_name, ...favorite_sub} = favorite
+  //     await Favorite.create({
+  //       ...favorite_sub,
+  //       reference_id: ref.id
+  //     })
+  //   } else {
+  //     console.log(`WARNING: '${favorite.reference_name}' not found.  Skipping...`)
+  //   }
+  // }
 
   process.exit(0);
 };

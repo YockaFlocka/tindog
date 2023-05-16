@@ -2,13 +2,21 @@ const User = require("./User")
 const Favorite = require("./Favorite")
 const Reference = require("./Reference")
 
-User.hasMany(Favorite, {
-  foreignKey: 'user_id',
-  onDelete: 'CASCADE'
+
+User.belongsToMany(Reference, {
+  through: {
+    model: Favorite,
+    unique: false
+  },
+  as: "favorites"
 })
 
-Favorite.belongsTo(User, {
-  foreignKey: 'user_id'
+Reference.belongsToMany(User, {
+  through: {
+    model: Favorite,
+    unique: false
+  },
+  as: "favorites"
 })
 
 // Need links to tie in reference table, done in router?

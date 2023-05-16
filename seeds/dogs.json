@@ -1,0 +1,742 @@
+[
+    {
+      "name": "Affenpinscher",
+      "description": "",
+      "dog_ceo_code": "affenpinscher",
+      "petfinder_code": "affenpinscher",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/affenpinscher/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/affenpinscher/",
+      "whitelist": true
+    },
+    {
+      "name": "African Wild Dog",
+      "description": "",
+      "dog_ceo_code": "african",
+      "petfinder_code": "",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/african/",
+      "petfinder_url": "",
+      "whitelist": false
+    },
+    {
+      "name": "Airedale Terrier",
+      "description": "",
+      "dog_ceo_code": "airedale",
+      "petfinder_code": "airedale-terrier",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/airedale/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/airedale-terrier/",
+      "whitelist": true
+    },
+    {
+      "name": "Akita",
+      "description": "",
+      "dog_ceo_code": "akita",
+      "petfinder_code": "akita",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/akita/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/akita/",
+      "whitelist": true
+    },
+    {
+      "name": "Appenzeller Mountain Dog",
+      "description": "",
+      "dog_ceo_code": "appenzeller",
+      "petfinder_code": "",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/appenzeller/",
+      "petfinder_url": "",
+      "whitelist": false
+    },
+    {
+      "name": "Australian Shepherd",
+      "description": "",
+      "dog_ceo_code": "australian-shepherd",
+      "petfinder_code": "australian-shepherd",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/australian/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-shepherd/",
+      "whitelist": true
+    },
+    {
+  
+      "name": "Basenji",
+      "description": "",
+      "dog_ceo_code": "basenji",
+      "petfinder_code": "basenji",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/basenji/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/basenji/",
+      "whitelist": true
+    },
+    {
+      "name": "Beagle",
+      "description": "",
+      "dog_ceo_code": "beagle",
+      "petfinder_code": "beagle",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/beagle/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/beagle/",
+      "whitelist": true
+    },
+    {
+      "name": "Bluetick Coonhound",
+      "description": "",
+      "dog_ceo_code": "bluetick-coonhound",
+      "petfinder_code": "bluetick-coonhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/bluetick/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bluetick-coonhound/",
+      "whitelist": true
+    },
+    {
+      "name": "Borzoi",
+      "description": "",
+      "dog_ceo_code": "borzoi",
+      "petfinder_code": "borzoi",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/borzoi/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/borzoi/",
+      "whitelist": true
+    },
+    {
+      "name": "Bouvier-Des-Flandres",
+      "description": "",
+      "dog_ceo_code": "bouvier-des-flandres",
+      "petfinder_code": "bouvier-des-flandres",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/bouvier/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bouvier-des-flandres/",
+      "whitelist": true
+    },
+    {
+      "name": "Boxer",
+      "description": "",
+      "dog_ceo_code": "boxer",
+      "petfinder_code": "boxer",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/boxer/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/boxer/",
+      "whitelist": true
+    },
+    {
+      "name": "Brabancon",
+      "description": "",
+      "dog_ceo_code": "brabancon",
+      "petfinder_code": "brabancon",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/brabancon/",
+      "petfinder_url": "",
+      "whitelist": false
+    },
+    {
+    "name": "Briard",
+    "description": "",
+    "dog_ceo_code": "briard",
+    "petfinder_code": "briard",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/briard/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/briard/",
+    "whitelist": true
+  },
+  {
+    "name": "Norwegian Buhund",
+    "description": "",
+    "dog_ceo_code": "norwegian-buhund",
+    "petfinder_code": "norwegian-buhund",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/buhund/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norwegian-buhund/",
+    "whitelist": true
+  },
+  {
+    "name": "Boston Bulldog",
+    "description": "",
+    "dog_ceo_code": "boston-bulldog",
+    "petfinder_code": "boston-bulldog",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/bulldog/boston/",
+    "petfinder_url": "",
+    "whitelist": false
+  },
+  {
+    "name": "English Bulldog",
+    "description": "",
+    "dog_ceo_code": "englsih-bulldog",
+    "petfinder_code": "english-bulldog",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/bulldog/english/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bulldog/",
+    "whitelist": true
+  },
+  {
+    "name": "French Bulldog",
+    "description": "",
+    "dog_ceo_code": "french-bulldog",
+    "petfinder_code": "french-bulldog",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/bulldog/french/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/french-bulldog/",
+    "whitelist": true
+  },
+  {
+    "name": "Staffordshire Bullterrier",
+    "description": "",
+    "dog_ceo_code": "staffordshire-bullterrier",
+    "petfinder_code": "staffordshire-bullterrier",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/bullterrier/staffordshire/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/staffordshire-bull-terrier/",
+    "whitelist": true
+  },
+  {
+    "name": "Australian Cattledog",
+    "description": "",
+    "dog_ceo_code": "australian-cattledog",
+    "petfinder_code": "australian-cattledog",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/cattledog/australian/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-cattle-dogs/",
+    "whitelist": true
+  },
+    {
+  
+      "name": "Chihuahua",
+      "description": "",
+      "dog_ceo_code": "chihuahua",
+      "petfinder_code": "chihuahua",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/chihuahua/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/chihuahua/",
+      "whitelist": true
+    },
+    {
+      "name": "Chow",
+      "description": "",
+      "dog_ceo_code": "chow-chow",
+      "petfinder_code": "chow-chow",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/chow/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/chow/chow/",
+      "whitelist": true
+    },
+    {
+      "name": "Clumber",
+      "description": "",
+      "dog_ceo_code": "Clumber",
+      "petfinder_code": "clumber-spaniel",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/clumber/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/clumber-spaniel/",
+      "whitelist": true
+    },
+    {
+      "name": "Cockapoo",
+      "description": "",
+      "dog_ceo_code": "cockapoo",
+      "petfinder_code": "cockapoo",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/cockapoo/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/cockapoo/",
+      "whitelist": true
+    },
+    {
+      "name": "Border Collie",
+      "description": "",
+      "dog_ceo_code": "border-collie",
+      "petfinder_code": "border-collie",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/collie/border/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/border-collie/", 
+      "whitelist": true
+    },
+    {
+      "name": "Black and Tan Coonhound",
+      "description": "",
+      "dog_ceo_code": "coonhound",
+      "petfinder_code": "coonhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/coonhound/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/black-and-tan-coonhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Black and Tan Coonhound",
+  
+      "dog_ceo_code": "coonhound",
+      "petfinder_code": "coonhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/coonhound/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/black-and-tan-coonhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Cardigan Corgi",
+      "description": "",
+      "dog_ceo_code": "cardigan corgi",
+      "petfinder_code": "cardigan corgi",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/cotondetulear/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/cardigan-welsh-corgi/", 
+      "whitelist": false
+    },
+    {
+      "name": "Coton de Tulear",
+      "description": "",
+      "dog_ceo_code": "cotondetulear",
+      "petfinder_code": "coton de tulear",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/cotondetulear/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/coton-de-tulear/", 
+      "whitelist": true
+    },
+    {
+      "name": "Dachshund",
+      "description": "",
+      "dog_ceo_code": "dachshund",
+      "petfinder_code": "dachshund",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/dachshund/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/dachshund/", 
+      "whitelist": true
+    },
+    {
+      "name": "Dalmatian",
+      "description": "",
+      "dog_ceo_code": "dalmatian",
+      "petfinder_code": "dalmatian",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/dalmatian/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/dalmatian/", 
+      "whitelist": true
+    },
+    {
+      "name": "Great Dane",
+      "description": "",
+      "dog_ceo_code": "great dane",
+      "petfinder_code": "great dane",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/dane/great/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/great-dane/", 
+      "whitelist": true
+    },
+    {
+      "name": "Scottish Deerhound",
+      "description": "",
+      "dog_ceo_code": "scottish deerhound",
+      "petfinder_code": "scottish deerhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/deerhound/scottish/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/scottish-deerhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Dhole",
+      "description": "",
+      "dog_ceo_code": "dhole",
+      "petfinder_code": "",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/deerhound/scottish/",
+      "petfinder_url": "", 
+      "whitelist": false
+    },
+    {
+      "name": "Doberman",
+      "description": "",
+      "dog_ceo_code": "doberman",
+      "petfinder_code": "doberman pinscher",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/doberman/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/doberman-pinscher/", 
+      "whitelist": true
+    },
+    {
+      "name": "Norwegian Elkhound",
+      "description": "",
+      "dog_ceo_code": "norwegian elkhound",
+      "petfinder_code": "norwegian elkhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/elkhound/norwegian/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norwegian-elkhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Entlebucher",
+      "description": "",
+      "dog_ceo_code": "entlebucher",
+      "petfinder_code": "norwegian elkhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/entlebucher/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/entlebucher-mountain-dog/", 
+      "whitelist": true
+    },
+    {
+      "name": "Eskimo",
+      "description": "",
+      "dog_ceo_code": "eskimo",
+      "petfinder_code": "eskimo",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/eskimo/",
+      "petfinder_url": "", 
+      "whitelist": false
+    },
+    {
+      "name": "Finnish Lapphund",
+      "description": "",
+      "dog_ceo_code": "finnish lapphund",
+      "petfinder_code": "finnish lapphund",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/lapphund/finnish/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/finnish-lapphund/", 
+      "whitelist": true
+    },
+    {
+      "name": "Bichon Frise",
+      "description": "",
+      "dog_ceo_code": "bichon frise",
+      "petfinder_code": "bichon frise",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/frise/bichon/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bichon-frise/", 
+      "whitelist": true
+    },
+    {
+      "name": "German Shepherd",
+      "description": "",
+      "dog_ceo_code": "german shepherd",
+      "petfinder_code": "german shepherd",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/germanshepherd/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/german-shepherd/", 
+      "whitelist": true
+    },
+    {
+      "name": "Italian Greyhound",
+      "description": "",
+      "dog_ceo_code": "italian greyhound",
+      "petfinder_code": "italian greyhound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/greyhound/italian/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/italian-greyhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Groenendael",
+      "description": "",
+      "dog_ceo_code": "groenendael",
+      "petfinder_code": "groenendael",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/groenendael/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/belgian-sheepdog/", 
+      "whitelist": true
+    },
+    {
+      "name": "Havanese",
+      "description": "",
+      "dog_ceo_code": "havanese",
+      "petfinder_code": "havanese",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/haveanese/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/havanese/", 
+      "whitelist": true
+    },
+    {
+      "name": "Afghan Hound",
+      "description": "",
+      "dog_ceo_code": "afghan hound",
+      "petfinder_code": "afghan hound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/afghan/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/afghan-hound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Basset Hound",
+      "description": "",
+      "dog_ceo_code": "basset hound",
+      "petfinder_code": "basset hound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/afghan/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/basset-hound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Blood Hound",
+      "description": "",
+      "dog_ceo_code": "blood hound",
+      "petfinder_code": "blood hound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/blood/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bloodhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "English hound",
+      "description": "",
+      "dog_ceo_code": "english hound",
+      "petfinder_code": "english coonhound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/english/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/english-coonhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Ibizan hound",
+      "description": "",
+      "dog_ceo_code": "ibizan hound",
+      "petfinder_code": "ibizan coonhound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/ibizan/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/ibizan-hound/", 
+      "whitelist": true
+    },
+   {
+      "name": "Plott hound",
+      "description": "",
+      "dog_ceo_code": "plott hound",
+      "petfinder_code": "plott coonhound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/plott/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/plott-hound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Walker hound",
+      "description": "",
+      "dog_ceo_code": "walker hound",
+      "petfinder_code": "walker hound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/walker/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/treeing-walker-coonhound/", 
+      "whitelist": true
+    },
+    {
+      "name": "Walker hound",
+      "description": "",
+      "dog_ceo_code": "walker hound",
+      "petfinder_code": "walker hound",
+      "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/walker/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/treeing-walker-coonhound/", 
+      "whitelist": true
+    },
+    {
+      "dog_ceo_code": "labrador",
+      "petfinder_code": "labrador-retriever",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/labrador/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/labrador-retriever/",
+      "whitelist": true
+  
+    },
+    {
+      "name": "Siberian Husky",
+      "description": "",
+      "dog_ceo_code": "husky",
+      "petfinder_code": "siberian-husky",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/husky/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/siberian-husky/",
+      "whitelist": true
+    },
+    {
+      "name": "Keeshond",
+      "description": "",
+      "dog_ceo_code": "keeshond",
+      "petfinder_code": "keeshond",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/keeshond/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/keeshond/",
+      "whitelist": true
+    },
+    {
+      "name": "Australian Kelpie",
+      "description": "",
+      "dog_ceo_code": "australian kelpie",
+      "petfinder_code": "australian kelpie",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/kelpie/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-kelpie/",
+      "whitelist": true
+    },
+    {
+      "name": "Komondor",
+      "description": "",
+      "dog_ceo_code": "komondor",
+      "petfinder_code": "komondor",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/komondor/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/komondor/",
+      "whitelist": true
+    },
+    {
+      "name": "Kuvasz",
+      "description": "",
+      "dog_ceo_code": "kuvasz",
+      "petfinder_code": "kuvasz",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/kuvasz/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/kuvasz/",
+      "whitelist": true
+    },
+    {
+      "name": "Labradoodle",
+      "description": "",
+      "dog_ceo_code": "labradoodle",
+      "petfinder_code": "labradoodle",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/labradoodle/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/labradoodle/",
+      "whitelist": true
+    },
+    {
+      "name": "Labrador",
+      "description": "",
+      "dog_ceo_code": "labrador",
+      "petfinder_code": "labrador retriever",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/labrador/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/labrador-retriever/",
+      "whitelist": true
+    },
+    {
+      "name": "Leonberg",
+      "description": "",
+      "dog_ceo_code": "leonberg",
+      "petfinder_code": "leonberg",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/leonberg/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/leonberger/",
+      "whitelist": true
+    },
+    {
+      "name": "Lhasa",
+      "description": "",
+      "dog_ceo_code": "lhasa",
+      "petfinder_code": "lhasa apso",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/lhasa/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/lhasa-apso/",
+      "whitelist": true
+    },
+    {
+      "name": "Alaskan Malmute",
+      "description": "",
+      "dog_ceo_code": "malmute",
+      "petfinder_code": "alaskan malmute",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/malmut/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/alaskan-malamute/",
+      "whitelist": true
+    },
+    {
+      "name": "Malinois",
+      "description": "",
+      "dog_ceo_code": "malinois",
+      "petfinder_code": "belgian shepherds/malinois",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/malmutmalinois/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/belgian-malinois/",
+      "whitelist": true
+    },
+    {
+      "name": "Maltese",
+      "description": "",
+      "dog_ceo_code": "maltese",
+      "petfinder_code": "maltese",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/maltese/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/maltese/",
+      "whitelist": true
+    },
+    {
+      "name": "Bull Mastiff",
+      "description": "",
+      "dog_ceo_code": "bull mastiff",
+      "petfinder_code": "bullmastiff",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/mastiff/bull/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bullmastiff/",
+      "whitelist": true
+    },
+    {
+      "name": "English Mastiff",
+      "description": "",
+      "dog_ceo_code": "enlgish mastiff",
+      "petfinder_code": "mastiff",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/mastiff/english/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/mastiff/",
+      "whitelist": true
+    },
+    {
+      "name": "Tibetan Mastiff",
+      "description": "",
+      "dog_ceo_code": "tibetan mastiff",
+      "petfinder_code": "tibetan mastiff",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/mastiff/tibetan/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/tibetan-mastiff/",
+      "whitelist": true
+    },
+    {
+      "name": "Mexican Hairless",
+      "description": "",
+      "dog_ceo_code": "mexican hairless",
+      "petfinder_code": "mexican hairless",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/mexicanhairless/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/xoloitzcuintli-mexican-hairless/",
+      "whitelist": true
+    },
+    {
+      "name": "Mixed Breed Dog",
+      "description": "",
+      "dog_ceo_code": "mix",
+      "petfinder_code": "mixed breed dog",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/mix/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/mixed-breed/",
+      "whitelist": true
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "description": "",
+      "dog_ceo_code": "bernese mountain dog",
+      "petfinder_code": "bernese mountain dog",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/dog/mountain/bernese/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bernese-mountain-dog/",
+      "whitelist": true
+    },
+    {
+      "name": "Bernese Mountain Dog",
+      "description": "",
+      "dog_ceo_code": "bernese mountain dog",
+      "petfinder_code": "bernese mountain dog",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/midog/mountain/bernese/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/greater-swiss-mountain-dog/",
+      "whitelist": true
+    },
+    {
+      "name": "Greater Swiss Mountain Dog",
+      "description": "",
+      "dog_ceo_code": "swiss mountain dog",
+      "petfinder_code": "greater swiss mountain dog",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/mountain/swiss/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/greater-swiss-mountain-dog/",
+      "whitelist": true
+    },
+    {
+      "name": "Newfoundland",
+      "description": "",
+      "dog_ceo_code": "newfoundland",
+      "petfinder_code": "newfoundland",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/Newfoundland/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/newfoundland/",
+      "whitelist": true
+    },
+    {
+      "name": "Otterhound",
+      "description": "",
+      "dog_ceo_code": "otterhound",
+      "petfinder_code": "otterhound",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/otterhound/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/otterhound/",
+      "whitelist": true
+    },
+    {
+      "name": "caucasian Ovcharka",
+      "description": "",
+      "dog_ceo_code": "caucasian ovcharka",
+      "petfinder_code": "caucasian shepherd dog",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/ovcharka/caucasian/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/caucasian-shepherd-dog/",
+      "whitelist": true
+    },
+    {
+      "name": "Papillon",
+      "description": "",
+      "dog_ceo_code": "papillon",
+      "petfinder_code": "papillon",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/pappillon/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/papillon/",
+      "whitelist": true
+    },
+    {
+      "name": "Pekingese",
+      "description": "",
+      "dog_ceo_code": "pekinese",
+      "petfinder_code": "pekingese",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/pekinese/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/pekingese/",
+      "whitelist": true
+    },
+    {
+      "name": "Pembroke",
+      "description": "",
+      "dog_ceo_code": "pembroke",
+      "petfinder_code": "pembroke welsh corgi",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/pembroke/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/pembroke-welsh-corgi/",
+      "whitelist": true
+    },
+    {
+      "name": "Miniature Pinscher",
+      "description": "",
+      "dog_ceo_code": "miniature pinscher",
+      "petfinder_code": "miniature pinscher",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/pinscher/miniature/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/miniature-pinscher/",
+      "whitelist": true
+    },
+    {
+      "name": "Pit Bull",
+      "description": "",
+      "dog_ceo_code": "pit bull",
+      "petfinder_code": "pit bull",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/pitbull/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/pit-bull/",
+      "whitelist": true
+    },
+    {
+      "name": "German Shorthaired Pointer",
+      "description": "",
+      "dog_ceo_code": "German Shorthaired Pointer",
+      "petfinder_code": "German Shorthaired Pointer",
+      "dog_ceo_base_url": "https://dog.ceo/api/breed/pointer/german/",
+      "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/german-shorthaired-pointer/",
+      "whitelist": true
+    }
+  ]
+  

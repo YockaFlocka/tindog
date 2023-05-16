@@ -470,6 +470,7 @@
     "whitelist": true
   },
   {
+    "name": "Trouble",
     "dog_ceo_code": "labrador",
     "petfinder_code": "labrador-retriever",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/labrador/",
