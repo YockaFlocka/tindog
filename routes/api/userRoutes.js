@@ -1,18 +1,25 @@
 const router = require("express").Router();
+const { Favorite } = require("../../models");
 const User = require("../../models/User");
 
 
-router.get("/", (req, res) => {
-  User.findAll()
-    .then( resp => res.status(200).json({ status: "success", payload: resp }))
-    .catch( err => res.status(200).json({ msg: err.message }))
-})
+// router.get("/", (req, res) => {
+//   User.findAll()
+//     .then( resp => res.status(200).json({ status: "success", payload: resp }))
+//     .catch( err => res.status(200).json({ msg: err.message }))
+// })
 
 
-// router.get("/:id", (req, res) => {
-//   User.findByPk(req.params.id)
-//     .then( resp => res.json({ status: "success", payload: resp }))
-//     .catch( err => res.json({ msg: err.message }))
+
+// router.get("/", async (req, res) => {
+//     try {
+//       let user = await User.findByPk(req.session.user_id)
+//       let userFav = await Favorite.findAll({where: { user_id: req.session.user_id || 0 }})
+//       console.log(userFav)
+//       res.render('users', {user, userFav})
+//     } catch (err) {
+//       console.log(err)
+//     }   
 // })
 
 const bigLog = (...text) => console.log(`\n==${text.join(" ")}\n`)

@@ -1,12 +1,12 @@
 [
   {
-    "user_id": 1,
+    "user_id": "1",
     "photo_url": "https://images.dog.ceo/breeds/akita/Akita_hiking_in_Shpella_e_Pellumbasit.jpg",
-    "reference_name": "Akita"
+    "reference_id": ""
   },
   {
     "user_id": 2,
     "photo_url": "https://images.dog.ceo/breeds/borzoi/n02090622_3156.jpg",
-    "reference_name": "Borzoi"
+    "reference_id": 2
   }
 ]
