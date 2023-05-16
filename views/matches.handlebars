@@ -17,7 +17,7 @@
       console.log(data);
       let imgEl = document.querySelector(".dogPhoto");
       imgEl.src = data.message.photo_url;
-      imgEl.dataset.referenceId = data.message.whitelist ? data.message.ref_id : -1;
+      imgEl.dataset.referenceId = data.message.adoptable ? data.message.ref_id : -1;
       let titleEl = document.querySelector(".card-title");
       titleEl.textContent = data.message.breed_name;
 

@@ -8,6 +8,7 @@ router.get("/", (req, res) => {
     .catch( err => res.json({ msg: err.message }))
 })
 
+// TODO: This needs a check that the reference_id is for an adoptable breed
 router.post("/", (req, res) => {
   if (req.body.reference_id > 0){
     Favorite.create(req.body)
