@@ -3,14 +3,36 @@ const sequelize = require('../config/connection');
 
 class Favorite extends Model {}
 
+/* 
+
+INCOMPLETE LIST, FUTURE UPDATES MAY BE NECESSARY
+
+fields to add
+
+Breed ID
+
+User ID
+
+image url from dog CEO
+
+Reference ID
+
+*/
+
 Favorite.init(
   {
-    name: {
-      type: DataTypes.STRING
+    user_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
-    qty: {
-      type: DataTypes.INTEGER
+    photo_url: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
+    reference_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    }
   },
   {
     sequelize,

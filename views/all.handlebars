@@ -1,0 +1,59 @@
+<figure class="lgphoto"></figure>
+
+<main class="content">
+    <section class="full-access">
+        <img class="float-left dogPhoto" />
+        <h2>How to get Full Access to TinDog</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit similique, iste consectetur veniam maiores, accusantium dolore non consequuntur nam, corrupti tempora ullam voluptatum. Quam nostrum maiores quae fugit at necessitatibus!
+        </p>
+    </section>
+    <section id="tindog-mission" class="tindog-mission">
+        <img class="float-right dogPhotoTwo" />
+        <h2>TinDog's Mission</h2>
+        <p>
+            Meet thousands of sociable, friendly, and interested dogs in your area! TinDog helps you select the perfect dog for you based on breed, personality, and of course, looks.            </p>
+    </section>
+</main>
+
+<aside class="benefits">
+    <section class="benefit1">
+        <h3>Why TinDog?</h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aperiam rem quibusdam iste deleniti cupiditate soluta impedit, animi perferendis deserunt necessitatibus tempora quod repellendus placeat laudantium blanditiis dolor a? Iusto?
+        </p>
+    </section>
+    <section class="benefit2">
+        <h3>How to Find the Perfect Dog:</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis magnam quam blanditiis hic, nulla deleniti recusandae qui aliquam deserunt pariatur, molestias consequuntur commodi iste aut perferendis mollitia ducimus! Illum, quaerat.
+        </p>
+    </section>
+    <section class="benefit3">
+        <h3>Petfinder Usages:</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis minus dolor facilis laudantium, voluptatem libero? Quaerat sapiente impedit doloremque, eos vitae tenetur laudantium quo sit dignissimos perferendis numquam enim incidunt?
+        </p>
+    </section>
+</aside>
+
+<script>
+function dogImage() {
+  fetch("https://dog.ceo/api/breeds/image/random/2")
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      let imgEl1 = document.querySelector(".dogPhoto");
+      let imgEl2 = document.querySelector(".dogPhotoTwo");
+
+      imgEl1.src = data.message[0];
+      imgEl2.src = data.message[1];
+      
+      // Perform any additional operations with the image sources here
+      // ...
+    })
+    .catch(error => console.error(error));
+}
+
+dogImage();
+</script>

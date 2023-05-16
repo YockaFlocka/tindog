@@ -1,0 +1,137 @@
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+.lgphoto {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pokerface.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 40px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 30%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit1 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit2 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit3 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit1 h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit2 h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit3 h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit1 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit2 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit3 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.full-access {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.tindog-mission {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.full-access img {
+    max-height: 200px;
+}
+
+.tindog-mission img {
+    max-height: 200px;
+}
+
+.full-access h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.tindog-mission h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}

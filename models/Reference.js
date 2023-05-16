@@ -6,11 +6,30 @@ class Reference extends Model {}
 Reference.init(
   {
     name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    description: {
       type: DataTypes.STRING
     },
-    qty: {
-      type: DataTypes.INTEGER
+    dog_ceo_code: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
+    petfinder_code: {
+      type: DataTypes.STRING,
+    },
+    dog_ceo_base_url: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    petfinder_url: {
+      type: DataTypes.STRING,
+    },
+    whitelist: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+    }
   },
   {
     sequelize,
