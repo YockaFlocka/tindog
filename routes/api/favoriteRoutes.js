@@ -4,7 +4,7 @@ const { Favorite, Reference } = require("../../models");
 
 router.get("/", (req, res) => {
   Favorite.findAll({
-    where: { user_id: req.session.user_id || 1 },
+    where: { user_id: req.session.user_id || 0 },
     include: {
       model: Reference,
       attributes: ['name', 'dog_ceo_base_url', 'petfinder_url']
