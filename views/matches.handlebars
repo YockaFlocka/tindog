@@ -11,7 +11,7 @@
 </div>
 <script>
   function dogImage() {
-  fetch("http://localhost:3001/api")
+  fetch("/api")
     .then(response => response.json())
     .then(data => {
       console.log(data);
@@ -61,7 +61,7 @@ acceptBtn.addEventListener("click", function() {
     reference_id: document.querySelector(".dogPhoto").dataset.referenceId
   }
   console.log(postData)
-  fetch("http://localhost:3001/api/favorite", {
+  fetch("/api/favorite", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
