@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const {User, Reference, Favorite} = require("../models");
 
 router.get('/', (req, res) => {
   res.render('all', {logged_in: req.session.logged_in})
@@ -18,31 +17,13 @@ router.get('/matches', (req, res) => {
 //   res.render('favorites', {logged_in: req.session.logged_in})
 // })
 
-router.get('/favorites', async (req, res) => {
+router.get('/users', (req, res) => {
   if (!req.session.logged_in) {
     res.redirect('/');
     return;
   }
 
-
-  //Favorite.findAll({where: { user_id: req.session.user_id || 0 }})
-
-  const currentUser = await User.findByPk(
-    req.session.user_id, {
-      include: [
-       { model: Reference, through: Favorite, as: "favorites" }
-      ]
-    }
-  )
-
-  console.log(currentUser)
-
-
-  res.render('favorites', {
-    logged_in: req.session.logged_in,
-    user: currentUser
-  
-  })
+  res.render('users', {logged_in: req.session.logged_in})
 })
 
 router.get('/login', (req, res) => {

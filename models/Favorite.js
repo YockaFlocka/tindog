@@ -21,40 +21,24 @@ Reference ID
 
 Favorite.init(
   {
-    // id: {
-    //   type: DataTypes.INTEGER, 
-    //   allowNull: false,
-    //   primaryKey: true, 
-    //   autoIncrement: true
-    // },
     user_id: {
       type: DataTypes.INTEGER,
-      references: {
-        model: "user",
-        key: "id",
-        unique: false
-      },
       allowNull: false,
     },
     photo_url: {
       type: DataTypes.STRING,
-      // allowNull: false,
+      allowNull: false,
     },
     reference_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      references: {
-        model: "reference",
-        key: "id",
-        unique: false
-      }
     }
   },
   {
     sequelize,
     timestamps: true,
     underscored: true,
-    modelName: 'favorite'
+    modelName: 'Favorite'
   }
 );
 

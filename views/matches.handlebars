@@ -2,7 +2,7 @@
   <div class="card text-center" style="width: 25rem;">
     <img class="dogPhoto">
     <div class="card-body">
-      <h5 class="card-title">{{reference.name}}</h5>
+      <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a class="btn btn-primary" id="declineBtn">Decline</a>
       <a class="btn btn-secondary" id="acceptBtn">Accept</a>
@@ -45,15 +45,12 @@ declineBtn.addEventListener("click", function() {
 acceptBtn.addEventListener("click", function() {
   console.log('you clicked accept!')
   // Make a POST request to the server with the image URL
-  fetch("/api/favorite/", {
+  fetch("http://example.com/favoritesSeed", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ 
-      image: document.querySelector(".dogPhoto").src,
-      reference_id: 1
-    })
+    body: JSON.stringify({ image: document.querySelector(".dogPhoto").src })
   })
     .then(response => response.json())
     .then(data => console.log(data))
