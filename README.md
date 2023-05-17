@@ -1,5 +1,7 @@
 # tindog
 
+https://tindog.herokuapp.com/
+
 ## Description
 
 Welcome to TinDogs! Tinder for Dogs!
@@ -14,7 +16,7 @@ swipe right/left model just happens to be one of the easiest routes to gamifying
 
 ## Installation
 
-No installations necessary! Simply go to our website at: 
+No installations necessary! Simply go to our website at: https://tindog.herokuapp.com/
 And create an account to get started!
 
 ## Usage
