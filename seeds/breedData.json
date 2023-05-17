@@ -47,7 +47,7 @@
   {
     "name": "Australian Shepherd",
     "description": "",
-    "dog_ceo_code": "australian shepherd",
+    "dog_ceo_code": "australian-shepherd",
     "petfinder_code": "australian-shepherd",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/australian/shepherd/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-shepherd/",
@@ -164,7 +164,7 @@
   {
     "name": "Staffordshire Bullterrier",
     "description": "",
-    "dog_ceo_code": "staffordshire bullterrier",
+    "dog_ceo_code": "bullterrier-staffordshire",
     "petfinder_code": "staffordshire-bullterrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/bullterrier/staffordshire/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/staffordshire-bull-terrier/",
@@ -173,7 +173,7 @@
   {
     "name": "Australian Cattledog",
     "description": "",
-    "dog_ceo_code": "australian cattledog",
+    "dog_ceo_code": "cattledog-australian",
     "petfinder_code": "australian-cattledog",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/cattledog/australian/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-cattle-dogs/",
@@ -200,7 +200,7 @@
   {
     "name": "Clumber",
     "description": "",
-    "dog_ceo_code": "Clumber",
+    "dog_ceo_code": "clumber",
     "petfinder_code": "clumber-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/clumber/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/clumber-spaniel/",
@@ -218,7 +218,7 @@
   {
     "name": "Border Collie",
     "description": "",
-    "dog_ceo_code": "border collie",
+    "dog_ceo_code": "collie-border",
     "petfinder_code": "border-collie",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/collie/border/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/border-collie/",
@@ -236,7 +236,7 @@
   {
     "name": "Cardigan Corgi",
     "description": "",
-    "dog_ceo_code": "cardigan corgi",
+    "dog_ceo_code": "corgi-cardigan",
     "petfinder_code": "cardigan-corgi",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/corgi/cardigan/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/cardigan-welsh-corgi/",
@@ -272,7 +272,7 @@
   {
     "name": "Great Dane",
     "description": "",
-    "dog_ceo_code": "great dane",
+    "dog_ceo_code": "dane-great",
     "petfinder_code": "great-dane",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/dane/great/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/great-dane/",
@@ -281,7 +281,7 @@
   {
     "name": "Scottish Deerhound",
     "description": "",
-    "dog_ceo_code": "scottish deerhound",
+    "dog_ceo_code": "deerhound-scottish",
     "petfinder_code": "scottish-deerhound",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/deerhound/scottish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/scottish-deerhound/",
@@ -308,7 +308,7 @@
   {
     "name": "Norwegian Elkhound",
     "description": "",
-    "dog_ceo_code": "norwegian elkhound",
+    "dog_ceo_code": "elkhound-norwegian",
     "petfinder_code": "norwegian-elkhound",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/elkhound/norwegian/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norwegian-elkhound/",
@@ -335,36 +335,36 @@
   {
     "name": "Finnish Lapphund",
     "description": "",
-    "dog_ceo_code": "finnish lapphund",
+    "dog_ceo_code": "finnish-lapphund",
     "petfinder_code": "finnish-lapphund",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/lapphund/finnish/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/finnish/lapphund/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/finnish-lapphund/",
     "whitelist": true
   },
   {
     "name": "Bichon Frise",
     "description": "",
-    "dog_ceo_code": "bichon frise",
+    "dog_ceo_code": "frise-bichon",
     "petfinder_code": "bichon-frise",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/frise/bichon/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/frise/bichon/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bichon-frise/",
     "whitelist": true
   },
   {
     "name": "German Shepherd",
     "description": "",
-    "dog_ceo_code": "german shepherd",
+    "dog_ceo_code": "germanshepherd",
     "petfinder_code": "german-shepherd",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/germanshepherd/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/germanshepherd/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/german-shepherd/",
     "whitelist": true
   },
   {
     "name": "Italian Greyhound",
     "description": "",
-    "dog_ceo_code": "italian greyhound",
+    "dog_ceo_code": "greyhound-italian",
     "petfinder_code": "italian-greyhound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/greyhound/italian/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/greyhound/italian/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/italian-greyhound/",
     "whitelist": true
   },
@@ -373,7 +373,7 @@
     "description": "",
     "dog_ceo_code": "groenendael",
     "petfinder_code": "groenendael",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/groenendael/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/groenendael/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/belgian-sheepdog/",
     "whitelist": true
   },
@@ -382,70 +382,70 @@
     "description": "",
     "dog_ceo_code": "havanese",
     "petfinder_code": "havanese",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/haveanese/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/havanese/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/havanese/",
     "whitelist": true
   },
   {
     "name": "Afghan Hound",
     "description": "",
-    "dog_ceo_code": "afghan hound",
+    "dog_ceo_code": "hound-afghan",
     "petfinder_code": "afghan-hound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/afghan/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/afghan/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/afghan-hound/",
     "whitelist": true
   },
   {
     "name": "Basset Hound",
     "description": "",
-    "dog_ceo_code": "basset hound",
+    "dog_ceo_code": "hound-basset",
     "petfinder_code": "basset-hound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/basset/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/basset/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/basset-hound/",
     "whitelist": true
   },
   {
     "name": "Blood Hound",
     "description": "",
-    "dog_ceo_code": "blood hound",
+    "dog_ceo_code": "hound-blood",
     "petfinder_code": "blood-hound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/blood/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/blood/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bloodhound/",
     "whitelist": true
   },
   {
     "name": "English hound",
     "description": "",
-    "dog_ceo_code": "english hound",
+    "dog_ceo_code": "hound-english",
     "petfinder_code": "english-coonhound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/english/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/english/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/english-coonhound/",
     "whitelist": true
   },
   {
     "name": "Ibizan hound",
     "description": "",
-    "dog_ceo_code": "ibizan hound",
+    "dog_ceo_code": "hound-ibizan",
     "petfinder_code": "ibizan-coonhound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/ibizan/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/ibizan/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/ibizan-hound/",
     "whitelist": true
   },
   {
     "name": "Plott hound",
     "description": "",
-    "dog_ceo_code": "plott hound",
+    "dog_ceo_code": "hound-plott",
     "petfinder_code": "plott-coonhound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/plott/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/plott/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/plott-hound/",
     "whitelist": true
   },
   {
     "name": "Walker hound",
     "description": "",
-    "dog_ceo_code": "walker hound",
+    "dog_ceo_code": "hound-walker",
     "petfinder_code": "walker-hound",
-    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/walker/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/hound/walker/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/treeing-walker-coonhound/",
     "whitelist": true
   },
@@ -478,7 +478,7 @@
   {
     "name": "Australian Kelpie",
     "description": "",
-    "dog_ceo_code": "australian kelpie",
+    "dog_ceo_code": "kelpie",
     "petfinder_code": "australian-kelpie",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/kelpie/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/australian-kelpie/",
@@ -542,8 +542,8 @@
     "name": "Malinois",
     "description": "",
     "dog_ceo_code": "malinois",
-    "petfinder_code": "belgian-shepherds/malinois",
-    "dog_ceo_base_url": "https://dog.ceo/api/breed/malmutmalinois/images/random",
+    "petfinder_code": "belgian-malinois",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/malinois/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/belgian-malinois/",
     "whitelist": true
   },
@@ -559,7 +559,7 @@
   {
     "name": "Bull Mastiff",
     "description": "",
-    "dog_ceo_code": "bullmastiff",
+    "dog_ceo_code": "mastiff-bull",
     "petfinder_code": "bullmastiff",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/mastiff/bull/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bullmastiff/",
@@ -568,7 +568,7 @@
   {
     "name": "English Mastiff",
     "description": "",
-    "dog_ceo_code": "enlgish mastiff",
+    "dog_ceo_code": "mastiff-english",
     "petfinder_code": "mastiff",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/mastiff/english/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/mastiff/",
@@ -577,7 +577,7 @@
   {
     "name": "Tibetan Mastiff",
     "description": "",
-    "dog_ceo_code": "tibetan mastiff",
+    "dog_ceo_code": "mastiff-tibetan",
     "petfinder_code": "tibetan-mastiff",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/mastiff/tibetan/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/tibetan-mastiff/",
@@ -586,7 +586,7 @@
   {
     "name": "Mexican Hairless",
     "description": "",
-    "dog_ceo_code": "mexican hairless",
+    "dog_ceo_code": "mexicanhairless",
     "petfinder_code": "mexican-hairless",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/mexicanhairless/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/xoloitzcuintli-mexican-hairless/",
@@ -604,16 +604,16 @@
   {
     "name": "Bernese Mountain Dog",
     "description": "",
-    "dog_ceo_code": "bernese mountain dog",
+    "dog_ceo_code": "mountain-bernese",
     "petfinder_code": "bernese-mountain-dog",
-    "dog_ceo_base_url": "https://dog.ceo/api/breed/dog/mountain/bernese/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/mountain/bernese/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bernese-mountain-dog/",
     "whitelist": true
   },
   {
     "name": "Greater Swiss Mountain Dog",
     "description": "",
-    "dog_ceo_code": "swiss mountain dog",
+    "dog_ceo_code": "mountain-swiss",
     "petfinder_code": "greater-swiss-mountain-dog",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/mountain/swiss/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/greater-swiss-mountain-dog/",
@@ -624,7 +624,7 @@
     "description": "",
     "dog_ceo_code": "newfoundland",
     "petfinder_code": "newfoundland",
-    "dog_ceo_base_url": "https://dog.ceo/api/breed/Newfoundland/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/newfoundland/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/newfoundland/",
     "whitelist": true
   },
@@ -640,7 +640,7 @@
   {
     "name": "caucasian Ovcharka",
     "description": "",
-    "dog_ceo_code": "caucasian ovcharka",
+    "dog_ceo_code": "ovcharka-caucasian",
     "petfinder_code": "caucasian-shepherd-dog",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/ovcharka/caucasian/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/caucasian-shepherd-dog/",
@@ -651,7 +651,7 @@
     "description": "",
     "dog_ceo_code": "papillon",
     "petfinder_code": "papillon",
-    "dog_ceo_base_url": "https://dog.ceo/api/breed/pappillon/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/papillon/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/papillon/",
     "whitelist": true
   },
@@ -676,7 +676,7 @@
   {
     "name": "Miniature Pinscher",
     "description": "",
-    "dog_ceo_code": "miniature pinscher",
+    "dog_ceo_code": "pinscher-miniature",
     "petfinder_code": "miniature-pinscher",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/pinscher/miniature/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/miniature-pinscher/",
@@ -694,7 +694,7 @@
   {
     "name": "German Shorthaired Pointer",
     "description": "",
-    "dog_ceo_code": "german pointer",
+    "dog_ceo_code": "pointer-german",
     "petfinder_code": "german-shorthaired-pointer",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/pointer/german/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/german-shorthaired-pointer/",
@@ -703,9 +703,9 @@
   {
     "name": "German Longhaired Pointer",
     "description": "",
-    "dog_ceo_code": "germanlonghaired pointer",
+    "dog_ceo_code": "pointer-germanlonghair",
     "petfinder_code": "",
-    "dog_ceo_base_url": "https://dog.ceo/api/breed/pointer/germanlonghaired/images/random",
+    "dog_ceo_base_url": "https://dog.ceo/api/breed/pointer/germanlonghair/images/random",
     "petfinder_url": "",
     "whitelist": false
   },
@@ -730,7 +730,7 @@
   {
     "name": "Miniature Poodle",
     "description": "",
-    "dog_ceo_code": "miniature poodle",
+    "dog_ceo_code": "poodle-miniature",
     "petfinder_code": "miniature-poodle",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/poodle/miniature/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/miniature-poodle/",
@@ -739,7 +739,7 @@
   {
     "name": "Poodle",
     "description": "",
-    "dog_ceo_code": "standard poodle",
+    "dog_ceo_code": "poodle-standard",
     "petfinder_code": "standard-poodle",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/poodle/standard/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/poodle/",
@@ -748,7 +748,7 @@
   {
     "name": "Toy Poodle",
     "description": "",
-    "dog_ceo_code": "toy poodle",
+    "dog_ceo_code": "poodle-toy",
     "petfinder_code": "",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/poodle/toy/images/random",
     "petfinder_url": "",
@@ -802,7 +802,7 @@
   {
     "name": "Curly Coated Retriever",
     "description": "",
-    "dog_ceo_code": "curly retriever",
+    "dog_ceo_code": "retriever-curly",
     "petfinder_code": "curly-coated-retriever",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/retriever/curly/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/curly-coated-retriever/",
@@ -811,7 +811,7 @@
   {
     "name": "Flat Coated Retriever",
     "description": "",
-    "dog_ceo_code": "flatcoated retriever",
+    "dog_ceo_code": "retriever-flatcoated",
     "petfinder_code": "flat-coated-retriever",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/retriever/flatcoated/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/flat-coated-retriever/",
@@ -820,7 +820,7 @@
   {
     "name": "Golden Retriever",
     "description": "",
-    "dog_ceo_code": "golden retriever",
+    "dog_ceo_code": "retriever-golden",
     "petfinder_code": "golden-retriever",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/retriever/golden/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/golden-retriever/",
@@ -829,7 +829,7 @@
   {
     "name": "Rhodesian Ridgeback",
     "description": "",
-    "dog_ceo_code": "rhodesian ridgeback",
+    "dog_ceo_code": "ridgeback-rhodesian",
     "petfinder_code": "rhodesian-ridgeback",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/ridgeback/rhodesian/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/rhodesian-ridgeback/",
@@ -874,7 +874,7 @@
   {
     "name": "Giant Schnauzer",
     "description": "",
-    "dog_ceo_code": "giant schnauzer",
+    "dog_ceo_code": "schnauzer-giant",
     "petfinder_code": "giant-schnauzer",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/schnauzer/giant/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/giant-schnauzer/",
@@ -883,7 +883,7 @@
   {
     "name": "Miniature Schnauzer",
     "description": "",
-    "dog_ceo_code": "miniature schnauzer",
+    "dog_ceo_code": "schnauzer-miniature",
     "petfinder_code": "miniature-schnauzer",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/schnauzer/miniature/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/miniature-schnauzer/",
@@ -892,7 +892,7 @@
   {
     "name": "Italian Segugio",
     "description": "",
-    "dog_ceo_code": "italian segugio",
+    "dog_ceo_code": "segugio-italian",
     "petfinder_code": "",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/segugio/italian/images/random",
     "petfinder_url": "",
@@ -901,7 +901,7 @@
   {
     "name": "English Setter",
     "description": "",
-    "dog_ceo_code": "english setter",
+    "dog_ceo_code": "setter-english",
     "petfinder_code": "english-setter",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/setter/english/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/english-setter/",
@@ -910,7 +910,7 @@
   {
     "name": "Gordon Setter",
     "description": "",
-    "dog_ceo_code": "gordon setter",
+    "dog_ceo_code": "setter-gordon",
     "petfinder_code": "gordon-setter",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/setter/gordon/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/gordon-setter/",
@@ -919,7 +919,7 @@
   {
     "name": "Irish Setter",
     "description": "",
-    "dog_ceo_code": "irish setter",
+    "dog_ceo_code": "setter-irish",
     "petfinder_code": "irish-setter",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/setter/irish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/irish-setter/",
@@ -937,7 +937,7 @@
   {
     "name": "Old English Sheepdog",
     "description": "",
-    "dog_ceo_code": "english sheepdog",
+    "dog_ceo_code": "sheepdog-english",
     "petfinder_code": "old-english-sheepdog",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/sheepdog/english/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/old-english-sheepdog/",
@@ -946,7 +946,7 @@
   {
     "name": "Shetland Sheepdog",
     "description": "",
-    "dog_ceo_code": "shetland sheepdog",
+    "dog_ceo_code": "sheepdog-shetland",
     "petfinder_code": "shetland-sheepdog",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/sheepdog/shetland/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/shetland-sheepdog-sheltie/",
@@ -973,7 +973,7 @@
   {
     "name": "Cavalier King Charles Spaniel",
     "description": "",
-    "dog_ceo_code": "blenheim spaniel",
+    "dog_ceo_code": "spaniel-blenheim",
     "petfinder_code": "cavalier-king-charles-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/blenheim/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/cavalier-king-charles-spaniel/",
@@ -982,7 +982,7 @@
   {
     "name": "Brittany Spaniel",
     "description": "",
-    "dog_ceo_code": "brittany spaniel",
+    "dog_ceo_code": "spaniel-brittany",
     "petfinder_code": "brittany-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/brittany/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/brittany/",
@@ -991,7 +991,7 @@
   {
     "name": "American Cocker Spaniel",
     "description": "",
-    "dog_ceo_code": "cocker spaniel",
+    "dog_ceo_code": "spaniel-cocker",
     "petfinder_code": "american-cocker-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/cocker/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/american-cocker-spaniel/",
@@ -1000,7 +1000,7 @@
   {
     "name": "Irish Water Spaniel",
     "description": "",
-    "dog_ceo_code": "irish spaniel",
+    "dog_ceo_code": "spaniel-irish",
     "petfinder_code": "irish-water-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/irish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/irish-water-spaniel/",
@@ -1009,7 +1009,7 @@
   {
     "name": "Japanese Spaniel",
     "description": "",
-    "dog_ceo_code": "japanese spaniel",
+    "dog_ceo_code": "spaniel-japanese",
     "petfinder_code": "japanese-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/japanese/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/japanese-chin/",
@@ -1018,7 +1018,7 @@
   {
     "name": "Sussex Spaniel",
     "description": "",
-    "dog_ceo_code": "sussex spaniel",
+    "dog_ceo_code": "spaniel-sussex",
     "petfinder_code": "sussex-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/sussex/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/sussex-spaniel/",
@@ -1027,7 +1027,7 @@
   {
     "name": "Welsh Springer Spaniel",
     "description": "",
-    "dog_ceo_code": "welsh spaniel",
+    "dog_ceo_code": "spaniel-welsh",
     "petfinder_code": "welsh-springer-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spaniel/welsh/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/welsh-springer-spaniel/",
@@ -1036,7 +1036,7 @@
   {
     "name": "Japanese Spitz ",
     "description": "",
-    "dog_ceo_code": "japanese spitz",
+    "dog_ceo_code": "spitz-japanese",
     "petfinder_code": "",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/spitz/japanese/images/random",
     "petfinder_url": "",
@@ -1045,7 +1045,7 @@
   {
     "name": "English Springer Spaniel ",
     "description": "",
-    "dog_ceo_code": "english springer",
+    "dog_ceo_code": "springer-english",
     "petfinder_code": "english-springer-spaniel",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/springer/english/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/english-springer-spaniel/",
@@ -1063,7 +1063,7 @@
   {
     "name": "American Staffordshire Terrier",
     "description": "",
-    "dog_ceo_code": "american terrier",
+    "dog_ceo_code": "terrier-american",
     "petfinder_code": "american-staffordshire-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/american/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/american-staffordshire-terrier/",
@@ -1081,7 +1081,7 @@
   {
     "name": "Bedlington Terrier",
     "description": "",
-    "dog_ceo_code": "bedlington terrier",
+    "dog_ceo_code": "terrier-bedlington",
     "petfinder_code": "bedlington-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/bedlington/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/bedlington-terrier/",
@@ -1090,7 +1090,7 @@
   {
     "name": "Border Terrier",
     "description": "",
-    "dog_ceo_code": "border terrier",
+    "dog_ceo_code": "terrier-border",
     "petfinder_code": "border-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/border/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/border-terrier/",
@@ -1099,7 +1099,7 @@
   {
     "name": "Cairn Terrier",
     "description": "",
-    "dog_ceo_code": "cairn terrier",
+    "dog_ceo_code": "terrier-cairn",
     "petfinder_code": "cairn-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/cairn/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/cairn-terrier/",
@@ -1108,7 +1108,7 @@
   {
     "name": "Dandie Dinmont Terrier",
     "description": "",
-    "dog_ceo_code": "dandie terrier",
+    "dog_ceo_code": "terrier-dandie",
     "petfinder_code": "dandie-dinmont-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/dandie/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/dandie-dinmont-terrier/",
@@ -1117,7 +1117,7 @@
   {
     "name": "Wire Fox Terrier",
     "description": "",
-    "dog_ceo_code": "fox terrier",
+    "dog_ceo_code": "terrier-fox",
     "petfinder_code": "wire-fox-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/fox/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/wire-fox-terrier/",
@@ -1126,7 +1126,7 @@
   {
     "name": "Irish Terrier",
     "description": "",
-    "dog_ceo_code": "irish terrier",
+    "dog_ceo_code": "terrier-irish",
     "petfinder_code": "irish-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/irish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/irish-terrier/",
@@ -1135,7 +1135,7 @@
   {
     "name": "Kerry Blue Terrier",
     "description": "",
-    "dog_ceo_code": "kerryblue terrier",
+    "dog_ceo_code": "terrier-kerryblue",
     "petfinder_code": "kerry-blue-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/kerryblue/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/kerry-blue-terrier/",
@@ -1144,7 +1144,7 @@
   {
     "name": "Lakeland Terrier",
     "description": "",
-    "dog_ceo_code": "lakeland terrier",
+    "dog_ceo_code": "terrier-lakeland",
     "petfinder_code": "lakeland-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/lakeland/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/lakeland-terrier/",
@@ -1153,7 +1153,7 @@
   {
     "name": "Norfolk Terrier",
     "description": "",
-    "dog_ceo_code": "norfolk terrier",
+    "dog_ceo_code": "terrier-norfolk",
     "petfinder_code": "norfolk-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/norfolk/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norfolk-terrier/",
@@ -1162,7 +1162,7 @@
   {
     "name": "Norwich Terrier",
     "description": "",
-    "dog_ceo_code": "norwich terrier",
+    "dog_ceo_code": "terrier-norwich",
     "petfinder_code": "norwich-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/norwich/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/norwich-terrier/",
@@ -1171,7 +1171,7 @@
   {
     "name": "Patterdale Terrier",
     "description": "",
-    "dog_ceo_code": "patterdale terrier",
+    "dog_ceo_code": "terrier-patterdale",
     "petfinder_code": "patterdale-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/patterdale/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/patterdale-terrier/",
@@ -1180,7 +1180,7 @@
   {
     "name": "Jack Russell Terrier",
     "description": "",
-    "dog_ceo_code": "russell terrier",
+    "dog_ceo_code": "terrier-russell",
     "petfinder_code": "jack-russell-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/russell/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/jack-russell-terrier/",
@@ -1189,7 +1189,7 @@
   {
     "name": "Scottish Terrier",
     "description": "",
-    "dog_ceo_code": "scottish terrier",
+    "dog_ceo_code": "terrier-scottish",
     "petfinder_code": "scottish-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/scottish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/scottish-terrier/",
@@ -1198,7 +1198,7 @@
   {
     "name": "Sealyham Terrier",
     "description": "",
-    "dog_ceo_code": "sealyham terrier",
+    "dog_ceo_code": "terrier-sealyham",
     "petfinder_code": "sealyham-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/sealyham/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/sealyham-terrier/",
@@ -1207,7 +1207,7 @@
   {
     "name": "Silky Terrier",
     "description": "",
-    "dog_ceo_code": "silky terrier",
+    "dog_ceo_code": "terrier-silky",
     "petfinder_code": "silky-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/silky/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/silky-terrier/",
@@ -1216,7 +1216,7 @@
   {
     "name": "Tibetan Terrier",
     "description": "",
-    "dog_ceo_code": "tibetan terrier",
+    "dog_ceo_code": "terrier-tibetan",
     "petfinder_code": "tibetan-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/tibetan/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/tibetan-terrier/",
@@ -1225,7 +1225,7 @@
   {
     "name": "Toy Fox Terrier",
     "description": "",
-    "dog_ceo_code": "toy terrier",
+    "dog_ceo_code": "terrier-toy",
     "petfinder_code": "toy-fox-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/toy/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/toy-fox-terrier/",
@@ -1234,7 +1234,7 @@
   {
     "name": "Welsh Terrier",
     "description": "",
-    "dog_ceo_code": "welsh terrier",
+    "dog_ceo_code": "terrier-welsh",
     "petfinder_code": "welsh-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/welsh/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/welsh-terrier/",
@@ -1243,7 +1243,7 @@
   {
     "name": "West Highland White Terrier",
     "description": "",
-    "dog_ceo_code": "westhighland terrier",
+    "dog_ceo_code": "terrier-westhighland",
     "petfinder_code": "west-highland-white-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/westhighland/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/west-highland-white-terrier/",
@@ -1252,7 +1252,7 @@
   {
     "name": "Wheaten Terrier",
     "description": "",
-    "dog_ceo_code": "wheaten terrier",
+    "dog_ceo_code": "terrier-wheaten",
     "petfinder_code": "wheaten-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/wheaten/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/soft-coated-wheaten-terrier/",
@@ -1261,7 +1261,7 @@
   {
     "name": "Yorkshire Terrier",
     "description": "",
-    "dog_ceo_code": "yorkshire terrier",
+    "dog_ceo_code": "terrier-yorkshire",
     "petfinder_code": "yorkshire-terrier",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/terrier/yorkshire/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/yorkshire-terrier/",
@@ -1288,7 +1288,7 @@
   {
     "name": "Spanish Water Dog",
     "description": "",
-    "dog_ceo_code": "spanish waterdog",
+    "dog_ceo_code": "waterdog-spanish",
     "petfinder_code": "spanish-water-dog",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/waterdog/spanish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/spanish-water-dog/",
@@ -1315,7 +1315,7 @@
   {
     "name": "Irish Wolfhound",
     "description": "",
-    "dog_ceo_code": "irish wolfhound",
+    "dog_ceo_code": "wolfhound-irish",
     "petfinder_code": "irish-wolfhound",
     "dog_ceo_base_url": "https://dog.ceo/api/breed/wolfhound/irish/images/random",
     "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/irish-wolfhound/",
