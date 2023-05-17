@@ -1,8 +1,8 @@
 <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
   <div class="card text-center" style="width: 25rem;">
-    <img class="dogPhoto">
+    <img class="dogPhoto" data-user-id="{{user_id}}">
     <div class="card-body">
-      <h5 class="card-title">{{reference.name}}</h5>
+      <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a class="btn btn-primary" id="declineBtn">Decline</a>
       <a class="btn btn-secondary" id="acceptBtn">Accept</a>
@@ -11,12 +11,22 @@
 </div>
 <script>
   function dogImage() {
-  fetch("https://dog.ceo/api/breeds/image/random")
+  fetch("http://localhost:3001/api")
     .then(response => response.json())
     .then(data => {
       console.log(data);
       let imgEl = document.querySelector(".dogPhoto");
-      imgEl.src = data.message;
+      imgEl.src = data.message.photo_url;
+      imgEl.dataset.referenceId = data.message.adoptable ? data.message.ref_id : -1;
+      let titleEl = document.querySelector(".card-title");
+      titleEl.textContent = data.message.breed_name;
+
+      let acceptBtn = document.querySelector("#acceptBtn");
+      if (data.message.ref_id > 0){
+        acceptBtn.classList.remove("disabled");
+      } else {
+        acceptBtn.classList.add("disabled");
+      }
     })
     .catch(error => console.error(error));
 }
@@ -45,15 +55,18 @@ declineBtn.addEventListener("click", function() {
 acceptBtn.addEventListener("click", function() {
   console.log('you clicked accept!')
   // Make a POST request to the server with the image URL
-  fetch("/api/favorite/", {
+  const postData = {
+    photo_url: document.querySelector(".dogPhoto").src,
+    user_id: document.querySelector(".dogPhoto").dataset.userId,
+    reference_id: document.querySelector(".dogPhoto").dataset.referenceId
+  }
+  console.log(postData)
+  fetch("http://localhost:3001/api/favorite", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ 
-      image: document.querySelector(".dogPhoto").src,
-      reference_id: 1
-    })
+    body: JSON.stringify(postData)
   })
     .then(response => response.json())
     .then(data => console.log(data))

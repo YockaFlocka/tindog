@@ -450,6 +450,15 @@
     "whitelist": true
   },
   {
+    "name": "Walker hound",
+    "description": "",
+    "dog_ceo_code": "walker hound",
+    "petfinder_code": "walker hound",
+    "dog_ceo_base_url": "https://www.petfinder.com/dogs-and-puppies/breeds/hound/walker/",
+    "petfinder_url": "https://www.petfinder.com/dogs-and-puppies/breeds/treeing-walker-coonhound/", 
+    "whitelist": true
+  },
+  {
     "name": "Labrador",
     "dog_ceo_code": "labrador",
     "petfinder_code": "labrador-retriever",

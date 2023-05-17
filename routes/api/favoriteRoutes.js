@@ -1,37 +1,22 @@
 const router = require("express").Router();
-const { Favorite, User, Reference } = require("../../models");
+const Favorite = require("../../models/Favorite");
 
 
-router.get("/", async (req, res) => {
-  try {
-    const currentUser = await User.findByPk(req.session.user_id).include([
-      { model: Reference, through: Favorite, as: "favorites"}
-    ])
-
-    console.log(currentUser)
-   // let userFav = await Favorite.findAll({where: { user_id: req.session.user_id || 0 }})
-    //console.log("asdfkjsjdifoij", userFav)
-    res.render('favorites', {user: currentUser})
-  } catch (err) {
-    console.log(err)
-  }   
+router.get("/", (req, res) => {
+  Favorite.findAll({ where: { user_id: req.session.user_id || 0 } })
+    .then( resp => res.json({ status: "success", payload: resp }))
+    .catch( err => res.json({ msg: err.message }))
 })
 
-router.post("/", async (req, res) => {
-  console.log(req.body)
-  console.log(req.session.user_id)
-  console.log("=========================")
-    try {
-      await Favorite.create({
-        user_id: req.session.user_id,
-        photo_url: req.body.image,
-        reference_id: req.body.reference_id
-      })
-    } catch (err) {
-      console.log(err)
-    }
-    console.log(req.body)
-    res.json("posted favorite")
+// TODO: This needs a check that the reference_id is for an adoptable breed
+router.post("/", (req, res) => {
+  if (req.body.reference_id > 0){
+    Favorite.create(req.body)
+      .then( resp => res.json({ status: "success", payload: resp }))
+      .catch( err => res.json({ msg: err.message }))
+  } else {
+    res.json({msg: "ERROR: Invalid reference ID."})
+  }
 })
 
 router.delete("/:id", (req, res) => {
