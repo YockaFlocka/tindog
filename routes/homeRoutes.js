@@ -14,22 +14,6 @@ router.get('/matches', (req, res) => {
   res.render('matches', {logged_in: req.session.logged_in, user_id: req.session.user_id})
 })
 
-// router.get('/favorites', (req, res) => {
-//   if (req.session.logged_in){
-//     const favs = Favorite.findAll({
-//       where: {user_id: req.session.user_id},
-//       include: {
-//         model: Reference,
-//         attributes: ['name', 'dog_ceo_base_url', 'petfinder_url']
-//       }
-//     })
-//     console.log(favs);
-//     res.render('favorites', {logged_in: req.session.logged_in})
-//   } else {
-//     res.redirect('/');
-//   }
-// })
-
 router.get('/users', async (req, res) => {
   if (req.session.logged_in){
     const favs = await Favorite.findAll({
