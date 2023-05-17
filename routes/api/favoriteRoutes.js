@@ -1,9 +1,15 @@
 const router = require("express").Router();
-const Favorite = require("../../models/Favorite");
+const { Favorite, Reference } = require("../../models");
 
 
 router.get("/", (req, res) => {
-  Favorite.findAll({ where: { user_id: req.session.user_id || 0 } })
+  Favorite.findAll({
+    where: { user_id: req.session.user_id || 1 },
+    include: {
+      model: Reference,
+      attributes: ['name', 'dog_ceo_base_url', 'petfinder_url']
+    }
+  })
     .then( resp => res.json({ status: "success", payload: resp }))
     .catch( err => res.json({ msg: err.message }))
 })
